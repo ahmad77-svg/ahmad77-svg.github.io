@@ -1,0 +1,243 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="تطبيق ذِكر للأذكار والأدعية اليومية، رفيقك في ذكر الله.">
+<meta name="theme-color" content="#071f18">
+<title>ذِكر | Zikr - الموقع الرسمي</title>
+<style>
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: Tahoma, Arial, sans-serif;
+  background: #071f18;
+  color: #ffffff;
+  line-height: 1.9;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 7%;
+  border-bottom: 1px solid #284a38;
+}
+.brand {
+  font-size: 26px;
+  font-weight: bold;
+  color: #dfbb70;
+}
+nav a {
+  color: #e5dcc8;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 14px;
+}
+.hero {
+  text-align: center;
+  padding: 90px 20px;
+  background: radial-gradient(
+    ellipse at top, #174331, #071f18 75%
+  );
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 110px;
+  margin: auto;
+  border: 2px solid #c5a15b;
+  border-radius: 28px;
+  background: #123b2b;
+  color: #dfbb70;
+  font-size: 48px;
+  box-shadow: 0 10px 40px #0005;
+}
+h1 {
+  color: #e5c47c;
+  font-size: clamp(28px, 5vw, 48px);
+}
+p {
+  color: #bdcdc2;
+}
+.download {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 14px 30px;
+  background: #d9b66d;
+  color: #09271b;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: .3s;
+}
+.download:hover {
+  background: #f0d18f;
+  transform: translateY(-3px);
+}
+section {
+  max-width: 1100px;
+  margin: auto;
+  padding: 60px 20px;
+}
+h2 {
+  text-align: center;
+  color: #dfbb70;
+  font-size: 30px;
+}
+.features {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit, minmax(230px, 1fr)
+  );
+  gap: 20px;
+}
+.card {
+  background: #113529;
+  padding: 30px 20px;
+  border: 1px solid #345544;
+  border-radius: 18px;
+  text-align: center;
+  transition: .3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #d9b66d;
+}
+.icon {
+  font-size: 38px;
+}
+.card h3 {
+  color: #e0be77;
+}
+.about {
+  text-align: center;
+  max-width: 750px;
+}
+footer {
+  text-align: center;
+  border-top: 1px solid #284a38;
+  padding: 35px 15px;
+  background: #051710;
+}
+footer a {
+  color: #dfbb70;
+  text-decoration: none;
+  margin: 0 10px;
+}
+@media(max-width: 500px) {
+  nav {
+    padding: 15px;
+  }
+  nav a {
+    margin: 0 5px;
+    font-size: 12px;
+  }
+  .hero {
+    padding: 60px 15px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div class="brand">ذِكر | ZIKR</div>
+  <div>
+    <a href="#home">الرئيسية</a>
+    <a href="#features">المميزات</a>
+    <a href="#contact">تواصل معنا</a>
+  </div>
+</nav>
+
+<header class="hero" id="home">
+  <div class="logo">ذِكر</div>
+
+  <h1>ألا بذكر الله تطمئن القلوب</h1>
+
+  <p>
+    رفيقك اليومي للأذكار والأدعية،
+    لتبقى على صلة بذكر الله في كل وقت.
+  </p>
+
+  <a class="download"
+     href="https://play.google.com/store/apps/details?id=com.ahmadalkassab.zikr">
+     Google Play — قريباً
+  </a>
+</header>
+
+<section id="features">
+  <h2>مميزات تطبيق ذِكر</h2>
+
+  <div class="features">
+
+    <div class="card">
+      <div class="icon">📖</div>
+      <h3>الأذكار اليومية</h3>
+      <p>أذكار وأدعية مرتبة وسهلة القراءة.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🎧</div>
+      <h3>الأذكار الصوتية</h3>
+      <p>استمع إلى الأذكار بكل سهولة.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">❤️</div>
+      <h3>المفضلة</h3>
+      <p>احتفظ بأذكارك المفضلة للوصول إليها.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🔢</div>
+      <h3>عداد الأذكار</h3>
+      <p>تابع عدد مرات تكرار الذكر بسهولة.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🔔</div>
+      <h3>التذكيرات</h3>
+      <p>تذكيرات تساعدك على المواظبة على الذكر.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">✨</div>
+      <h3>تصميم مريح</h3>
+      <p>واجهة أنيقة وبسيطة باللغة العربية.</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="about">
+  <h2>عن تطبيق ذِكر</h2>
+  <p>
+    ذِكر هو تطبيق يهدف إلى تسهيل قراءة الأذكار
+    والأدعية اليومية، بتجربة استخدام بسيطة ومريحة.
+    نسأل الله أن ينفع به ويجعله صدقة جارية.
+  </p>
+</section>
+
+<footer id="contact">
+  <h3>تواصل معنا</h3>
+
+  <a href="mailto:ahmadkassab2808@gmail.com">
+    البريد الإلكتروني
+  </a>
+
+  <a href="app-ads.txt">
+    AdMob Verification
+  </a>
+
+  <p>جميع الحقوق محفوظة © ذِكر 2026</p>
+</footer>
+
+</body>
+</html>
